@@ -18,17 +18,6 @@ require_once(DOKU_PLUGIN.'syntax.php');
  */
 class syntax_plugin_highlight extends DokuWiki_Syntax_Plugin {
 
-    function getInfo(){  // return some info
-        return array(
-            'author' => 'Joseph Nahmias',
-            'email'  => 'joe@nahmias.net',
-            'date'   => '2006-09-06',
-            'name'   => 'Color Highlight Plugin',
-            'desc'   => 'Highlight text with a specific color
-                         Syntax: <hi color>highlighted content</hi>',
-            'url'    => 'http://www.dokuwiki.org/plugin:highlight',
-        );
-    }
 
      // What kind of syntax are we?
     function getType(){ return 'formatting'; }
